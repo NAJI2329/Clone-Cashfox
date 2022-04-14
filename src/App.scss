@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.n-container {
+  padding: 0px 400px 0px 400px;
+}
+
+.primary-bg {
+  background-color: rgb(0,0,102);
+}
+
+.header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.home {
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 850px) { 
+
+  .n-container {
+    padding: 0px 30px 0px 30px;
+  }
+
+  
+}
+
+
