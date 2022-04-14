@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/br-firma');
+
 /* Global Styles */
 :root {
   --primary-color: #17a2b8;
@@ -26,8 +28,12 @@ ul {
   list-style: none;
 }
 
+.row {
+  padding: 0 !important;
+}
 .n-container {
-  padding: 0px 400px 0px 400px;
+  width: 1200px;
+  margin: auto;
 }
 
 .primary-bg {
@@ -40,17 +46,159 @@ ul {
   color: white;
 }
 
+
 .home {
   padding-bottom: 50px;
+
+  .CashfoxT {
+    font-family: 'BR Firma', sans-serif;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-top: 64px;
+    margin-bottom: 48px;
+    max-width: 544px;
+    font-weight: bold;
+  }
+  .CashfoxTItem {
+    margin-bottom: 20px;
+    
+    img {
+      margin-right: 10px;
+    }
+  }
+
+  .secureLiqusityNowBtn {
+    color: #fff;
+    background-color: #fe5d44;
+    border-radius: 2px;
+    height: 48px;
+    white-space: nowrap;
+    font-family: 'BR Firma', sans-serif;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 120px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    line-height: 3rem;
+  }
+  
+  .chritt {
+    margin-top: 164px;
+    .chritt_title {
+      font-family: 'BR Firma', sans-serif;
+      font-size: 3.5rem;
+      line-height: 4.5rem;
+      margin-bottom: 48px;
+      font-weight: bold;
+      color: #fe5d44;
+    }
+
+    .number {
+        
+      width: 48px;
+      height: 48px;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      z-index: 10;
+      font-family: 'BR Firma', sans-serif;
+      font-size: 1.25rem;
+      line-height: 2rem;
+      margin: auto;
+      color: #0c5c51;
+      box-shadow: 0px 0px 10px #68928d;
+      position: relative;
+    }
+
+    .leftlineDiv {
+      width: 200px;
+      height: 6px;
+      background: linear-gradient(to right, #fe5d44, #ffffff);;
+      position: absolute;
+      top: 21px;
+      left: 48px;
+    }
+
+    .tit {
+      font-family: 'BR Firma', sans-serif;
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      font-weight: bold;
+      color: #0c5c51;
+    }
+
+    .comme {
+      color: #0c5c51;
+      font-size: 1.125rem;
+    }
+  }
+
+  .bene {
+    font-family: 'BR Firma', sans-serif;
+
+  }
+  .trusitem {
+    padding: 70px;
+
+    h1 {
+      color: #b7172e;
+      border-width: 0;
+      border-style: solid;
+      border-color: currentColor;
+      font-family: 'BR Firma', sans-serif;
+      font-size: 1.8rem;
+      font-weight: bold;
+      line-height: 2.25rem;
+    }
+  }
 }
 
-@media only screen and (max-width: 850px) { 
+@media only screen and (max-width: 500px) { 
 
   .n-container {
-    padding: 0px 30px 0px 30px;
+    width: 90%;
+    margin: auto;
   }
 
   
+  .home {
+    .chritt {
+      .chritt_title {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        margin-bottom: 48px;
+        font-weight: bold;
+        color: #fe5d44;
+      }
+
+      
+      .leftlineDiv {
+        width: 0px;
+      }
+    }
+  
+    .trusitem {
+      padding: 10px;
+    }
+  }
+
+
 }
 
 
